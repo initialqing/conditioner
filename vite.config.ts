@@ -20,6 +20,7 @@ export default defineConfig({
     },
   },
   build: {
+    outDir: "docs",
     target: ["chrome58"],
     minify: "terser",
     rollupOptions: {
